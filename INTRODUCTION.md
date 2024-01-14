@@ -55,9 +55,9 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-### [V] Install the project dependencies
+### [V] Install the project dependencies with [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
 ```bash
-pip install -r requirements.txt
+poetry install -vv
 ```
 
 ### [VI] Run the dashboard
