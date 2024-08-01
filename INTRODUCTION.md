@@ -14,13 +14,14 @@ second week of the course, I will provide an introductory lecture on Git and the
 have the opportunity to ask questions as well.
 
 ## Prerequisites
+Please have a look and test Investment Funnel, which is deployed as a [dashboard web application](https://investment-funnel.algostrata.com), before the course starts.
 
-To be able to run the Investment Funnel Dashboard, you need to follow these steps.
+To be able to run the Investment Funnel Dashboard on your local machine, you need to follow these steps. This would be helpful in case you would like to experiment with the code or make changes to it.
 
 ### [I] Install Python
 
 The project is written in Python, therefore you need to install Python on your computer. It is recommended to install
-Python 3.9, but versions 3.8 or 3.10 should work as well. You can find a great tutorial on how to install Python on
+Python 3.11, but versions 3.10 or 3.12 should work as well. You can find a great tutorial on how to install Python on
 your computer on the [Real Python](https://realpython.com/installing-python/) website.
 
 ### [II] Download the project
