@@ -14,7 +14,7 @@ second week of the course, I will provide an introductory lecture on Git and the
 have the opportunity to ask questions as well.
 
 ## Prerequisites
-Please have a look and test Investment Funnel, which is deployed as a [dashboard web application](https://investment-funnel.algostrata.com), before the course starts.
+Please have a look and test Investment Funnel, which is deployed as a [dashboard web application](https://investment-funnel.algostrata.com), before the course starts. Pay attention especially to the first 'Market overview' tab, where you can see the data structure and the visualization of the data. We also recommend to use Google chrome browser and to adjust the zoom for the best experience.
 
 To be able to run the Investment Funnel Dashboard on your local machine, you need to follow these steps. This would be helpful in case you would like to experiment with the code or make changes to it.
 
