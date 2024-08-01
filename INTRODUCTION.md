@@ -63,7 +63,7 @@ poetry install -vv
 ### [VI] Run the dashboard
 Now you should be ready to run the code. To do that, run the following command in the terminal
 ```bash
-python app.py
+python -m funnel.app
 ```
 The app is running on your local host http://127.0.0.1:8050. You can open it in your browser and see the dashboard
 attached in the picture below.
