@@ -1,4 +1,4 @@
-# Practical Financial Optimization 2024
+# Practical Financial Optimization 2025
 
 Dear students 🧑‍🎓,
 
@@ -40,33 +40,8 @@ the repository using the `git pull` command.
   <img width="100%" src="images/download_zip.png"></a>
 </p>
 
-### [III] In the terminal, navigate to the project folder
-For Mac/Linux, use
-```bash
-cd path/to/the/investment-funnel
-```
-For Windows, use
-```shell
-cd path\to\the\investment-funnel
-```
-
-### [IV] In the project folder, create and activate a python virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### [V] Install the project dependencies with [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
-```bash
-poetry install -vv
-```
-
-### [VI] Run the dashboard
-Now you should be ready to run the code. To do that, run the following command in the terminal
-```bash
-python -m funnel.app
-```
-The app is running on your local host http://127.0.0.1:8050. You can open it in your browser and see the dashboard
+### [III] Read the Investment Funnel project README file and try to run the code
+The app is running on your local host http://127.0.0.1:8222. You can open it in your browser and see the dashboard
 attached in the picture below.
 <p>
   <img width="100%" src="images/dash.png"></a>
@@ -75,7 +50,7 @@ attached in the picture below.
 ### [non-compulsory] Install a code editor
 
 To efficiently study the code, edit it, and write your own code, you need to install a code editor. I would recommend
-PyCharm, which is my favorite code editor. However, you can use any other editor that you prefer. You can find a great
-tutorial on how to install PyCharm [here](https://www.jetbrains.com/help/pycharm/installation-guide.html). The free
-PyCharm Community Edition is available to download from [here](https://www.jetbrains.com/pycharm/download/)
+PyCharm, which is my favorite code editor. However, you can use any other editor that you prefer like VS Code, Cursor or Windsurf. 
+
+You can find a great tutorial on how to install PyCharm [here](https://www.jetbrains.com/help/pycharm/installation-guide.html). The free PyCharm Community Edition is available to download from [here](https://www.jetbrains.com/pycharm/download/)
 (scroll down on the page).
