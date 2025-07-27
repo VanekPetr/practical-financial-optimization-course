@@ -4,53 +4,59 @@ Dear students 🧑‍🎓,
 
 Welcome to the Practical Financial Optimization (PFO) course 🎉.
 
-As part of your curriculum, you will be experimenting
-with the [Investment Funnel](https://github.com/VanekPetr/investment-funnel) open-source Python project. You can find
-more information about the project in the project's [README file](https://github.com/VanekPetr/investment-funnel/blob/main/README.md).
+As part of the curriculum, we will leverage the open-source [Investment Funnel](https://github.com/VanekPetr/investment-funnel) project to move you closer to the real-world applications of mathematical models in finance. Please note that while the course description did not list Python as a prerequisite, **experimenting with the Python code is not compulsory but is shared as a bonus** for those who would like to dig deeper. Most of the models and concepts shown in Python will also be explained and then introduced in GAMS.
 
-In the following lines, you will find brief instructions on how to get started with the project. If you have any
-questions, please feel free to contact me at my email address `petrr.vanekk@gmail.com`. Additionally, during the
-second week of the course, I will provide an introductory lecture on Git and the Investment Funnel, where you will
-have the opportunity to ask questions as well.
+If you have any questions, please feel free to contact me at `petrr.vanekk@gmail.com`. Additionally, during the second week of the course, I will provide an introductory lecture on Git and the [Investment Funnel](https://github.com/VanekPetr/investment-funnel), where you will have the opportunity to ask questions.
 
-## Prerequisites
-Please have a look and test Investment Funnel, which is deployed as a [dashboard web application](https://investment-funnel.algostrata.com), before the course starts. Pay attention especially to the first 'Market overview' tab, where you can see the data structure and the visualization of the data. We also recommend to use Google chrome browser and to adjust the zoom for the best experience.
+---
 
-To be able to run the Investment Funnel Dashboard on your local machine, you need to follow these steps. This would be helpful in case you would like to experiment with the code or make changes to it.
+## Getting Started with the Investment Funnel
 
-### [I] Install Python
+### [I] Explore the Dashboard Application [Highly Recommended]
 
-The project is written in Python, therefore you need to install Python on your computer. It is recommended to install
-Python 3.11, but versions 3.10 or 3.12 should work as well. You can find a great tutorial on how to install Python on
-your computer on the [Real Python](https://realpython.com/installing-python/) website.
+First and foremost, we **strongly encourage you to explore the `Investment Funnel` dashboard web application**.
 
-### [II] Download the project
-There are two ways to download the code:
+➡️ **[https://investment-funnel.algostrata.com](https://investment-funnel.algostrata.com)**
 
-1. **[Recommended]** Install [Git](https://git-scm.com/) and clone the project repository to your computer. A great
-tutorial on how to install Git can be found [here](https://github.com/git-guides/install-git). To clone the repository
-using HTTPS, you can follow this [tutorial](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-If you haven't done so already, I would also recommend creating a GitHub account. It is free and you can use it to
-store your code projects (for example, the one you will write during this course). This option is recommended because during
-the course, the Investment Funnel repository will change, and you will be able to easily update your local copy of
-the repository using the `git pull` command.
+It's very important to familiarize yourself with the application, especially the 'Market overview' tab. The data loaded in the application is **exactly the same data you will be using for your final project**, so understanding its structure now will be a great help later on. The dashboard is best viewed using the Google Chrome browser with adjusted page zoom.
 
-2. Download the repository as a ZIP file. You can do this by clicking on the green button labeled `Code` and then selecting `Download ZIP`.
-<p>
-  <img width="100%" src="images/download_zip.png"></a>
-</p>
+### [II] Understand the Project's Structure
 
-### [III] Read the Investment Funnel project README file and try to run the code
-The app is running on your local host http://127.0.0.1:8222. You can open it in your browser and see the dashboard
-attached in the picture below.
-<p>
-  <img width="100%" src="images/dash.png"></a>
-</p>
+The project was recently split into two main components. Reading through the code of these two projects during the course (perhaps after the first week) may provide valuable hints for your final project.
 
-### [non-compulsory] Install a code editor
+* **The Dashboard ([Investment Funnel](https://github.com/VanekPetr/investment-funnel) on GitHub)**: This is the repository for the main web application. The `README.md` file in this project is particularly important, as it explains the funnel concept in detail and contains many useful links to the models you will learn about in this course.
+* **`ifunnel`**: A Python [package available on PyPI](https://pypi.org/project/ifunnel/) that implements most of the optimization models. This package was developed in close collaboration with **Thomas Schmelzer**, an ex-Stanford and ex-ADIA quant with many years of experience. His other projects on his [GitHub profile](https://github.com/tschm) are also well worth exploring.
 
-To efficiently study the code, edit it, and write your own code, you need to install a code editor. I would recommend
-PyCharm, which is my favorite code editor. However, you can use any other editor that you prefer like VS Code, Cursor or Windsurf. 
+---
 
-You can find a great tutorial on how to install PyCharm [here](https://www.jetbrains.com/help/pycharm/installation-guide.html). The free PyCharm Community Edition is available to download from [here](https://www.jetbrains.com/pycharm/download/)
-(scroll down on the page).
+## Optional: For Those Who Want to Go Deeper
+
+This section is for students interested in experimenting with the code on their own machines. The following steps are **entirely optional** and not required to complete the course.
+
+### Install Python
+
+The project is written in Python. If you want to run it locally, you'll need to install Python on your computer. The project is built with Python 3.12, though versions 3.11 or 3.13 should also be compatible. You can find a great tutorial on how to do this on the [Real Python](https://realpython.com/installing-python/) website.
+
+### Download the Code and Get Set Up
+
+To explore the code locally, you have two key projects you can download.
+
+**1. The Dashboard Project (`Investment-Funnel`)**
+
+This repository contains the code for the web application itself. You can get the code in two ways from its [GitHub page](https://github.com/VanekPetr/investment-funnel):
+
+* **[Recommended]** Install [Git](https://git-scm.com/) and clone the repository. This allows you to easily get updates with the `git pull` command. It's also a great opportunity to create a free [GitHub account](https://github.com/).
+* Download the repository as a ZIP file by clicking the green `Code` button and then `Download ZIP`.
+    <p>
+      <img width="100%" src="images/download_zip.png"></a>
+    </p>
+
+**2. The Models Package (`ifunnel`)**
+
+This repository contains the Python source code for all the optimization models used in the dashboard. For those who want to understand the core logic, you can explore or download the code from the **[ifunnel GitHub page](https://github.com/tschm/funnel)**.
+
+To efficiently study and edit the code from either project, a code editor like PyCharm (the free [Community Edition](https://www.jetbrains.com/pycharm/download/) is excellent), VS Code, or Cursor will be very helpful.
+
+### Running the Dashboard Locally
+
+To run the dashboard on your local machine, please follow the detailed instructions in the projects' README files or contact me via email.
