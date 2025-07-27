@@ -6,7 +6,7 @@ Welcome to the Practical Financial Optimization (PFO) course 🎉.
 
 As part of the curriculum, we will leverage the open-source [Investment Funnel](https://github.com/VanekPetr/investment-funnel) project to move you closer to the real-world applications of mathematical models in finance. Please note that while the course description did not list Python as a prerequisite, **experimenting with the Python code is not compulsory but is shared as a bonus** for those who would like to dig deeper. Most of the models and concepts shown in Python will also be explained and then introduced in GAMS.
 
-If you have any questions, please feel free to contact me at `petrr.vanekk@gmail.com`. Additionally, during the second week of the course, I will provide an introductory lecture on Git and the [Investment Funnel](https://github.com/VanekPetr/investment-funnel), where you will have the opportunity to ask questions.
+If you have any questions, please feel free to contact me at `petrr.vanekk@gmail.com`. Additionally, during the second week of the course, I will provide an introductory lecture on Git and the `Investment Funnel`, where you will have the opportunity to ask questions.
 
 ---
 
@@ -53,7 +53,7 @@ This repository contains the code for the web application itself. You can get th
 
 **2. The Models Package (`ifunnel`)**
 
-This repository contains the Python source code for all the optimization models used in the dashboard. For those who want to understand the core logic, you can explore or download the code from the **[ifunnel GitHub page](https://github.com/tschm/funnel)**.
+This repository contains the Python source code for all the optimization models used in the dashboard. For those who want to understand the core of our course in Python, you can explore or download the code from the **[ifunnel GitHub page](https://github.com/tschm/funnel)**.
 
 To efficiently study and edit the code from either project, a code editor like PyCharm (the free [Community Edition](https://www.jetbrains.com/pycharm/download/) is excellent), VS Code, or Cursor will be very helpful.
 
